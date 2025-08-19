@@ -1,0 +1,35 @@
+.elements {
+  font-weight: 900;
+  color: #000;
+  display: grid;
+  gap: 17px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.elements__element {
+  max-width: 282px;
+  max-height: 361px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.elements__image {
+  max-width: 282px;
+  max-height: 282px;
+  width: 100%;
+  object-fit: cover;
+}
+.elements__title {
+  display: flex;
+  margin: 25px 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.elements__text {
+  margin: 0;
+  font-size: 24px;
+}
+.elements__like {
+  margin: auto 0 auto auto;
+}
