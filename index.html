@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aroud EEUU</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="body">
     <div class="page">
@@ -23,11 +28,16 @@
             src="./images/image-avatar.jpg"
             alt="imagen de perfil"
           />
-          <h1 class="header__info">
-            <span class="header__span"></span>
-          </h1>
-          <button class="header__edit-button-"></button>
-          <button class="header__add-button"></button>
+          <div class="header__info">
+            <h1 class="header__name">
+              Jacques Cousteau
+              <button class="header__edit-button"></button>
+            </h1>
+            <h2 class="header__occupation">Explorador</h2>
+          </div>
+          <button class="header__add-button">
+            <img src="./images/add-button.png" alt="boton agregar" />
+          </button>
         </div>
       </header>
       <main class="content">
