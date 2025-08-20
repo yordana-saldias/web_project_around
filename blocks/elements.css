@@ -4,7 +4,7 @@
   display: grid;
   gap: 17px 20px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 .elements__element {
   max-width: 282px;
